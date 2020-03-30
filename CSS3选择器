@@ -12,7 +12,8 @@ Attribute属性选择器
 ①指定某个标签具有某个属性的所有元素
 ②某个属性等于某个值的所有元素
 ③某个属性包含某个英文单词的所有元素
-
+④以某个单词开头的所有元素
+⑤以某个单词结尾的所有元素
 [attribute]-[attribute=""]
 a["href"]{
 	text-decoration:none;
@@ -20,6 +21,66 @@ a["href"]{
 a[type="text"]{
 	color:black;
 }
-a[href~="#"]{
+a[href~="abc"]{必须包含单词
 	color:yellow;
 }
+a[href^="#"]{
+	color:green;
+}
+a[href$="#"]{
+	color:pink;
+}
+a[href*="abc"]{
+	color:blue;
+}
+-------------------------------
+3.动态伪类选择器
+-------------------------------
+:link ,:visited ,:hover, :active,
+:focus获取到光标以后发生的改变
+-------------------------------
+4.UI元素状态伪类选择器
+-------------------------------
+:enabled :disabled :checked
+-------------------------------
+5.结构类选择器
+-------------------------------
+p:first-child
+p:last-child
+p:nth-child(n)
+nth-child(odd)奇数
+nth-child(even)偶数
+nth-last-child()从倒计时计数
+div:nth-of-type(2)
+div:nth-last-of-type(2)
+:empty没有子元素的所有元素 
+-------------------------------
+6.否定选择器
+-------------------------------
+:not
+-------------------------------
+6.伪元素
+-------------------------------
+①div::first-line只针对块级元素生效，
+将块级元素第一行文本进行格式化
+②div::first-letter
+将块级元素第一个文本进行格式化
+③div::before
+在元素的内容前面插入内容，一般配合content使用
+永远是第一个子元素
+行级元素
+内容通过content导入
+④div::after
+多用于清除浮动
+永远是div的最后一个子元素
+div::after{
+	content:'.';
+	width:0;
+	height:0;
+	display:block;
+	visiblity:hidden;
+	clear:both;
+}
+⑤div::selection
+用于浏览器选中文本后的前景色和背景色
+`

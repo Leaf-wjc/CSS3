@@ -7,10 +7,20 @@ border-box
 padding-box
 content-box
 -------------------------------
-1.CSS背景图像定位
+2.CSS背景图像定位
 -------------------------------
 background-origin
 指定背景图片从哪里开始偏移（background-position）
 padding-box
 border-box
 content-box
+backgound简写顺序
+c-p-s-r-o-c-a-i
+background-color: ;
+background-clip: ;
+background-origin: ;
+background-image: ;
+background-size: ;
+background-position: ;
+background-repeat: ;
+background-attachment: ;

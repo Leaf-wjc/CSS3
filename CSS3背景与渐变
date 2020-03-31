@@ -1,0 +1,16 @@
+-------------------------------
+1.CSS背景图像区域
+-------------------------------
+background-clip
+指定背景的绘制区域3个属性
+border-box
+padding-box
+content-box
+-------------------------------
+1.CSS背景图像定位
+-------------------------------
+background-origin
+指定背景图片从哪里开始偏移（background-position）
+padding-box
+border-box
+content-box

@@ -22,8 +22,8 @@ inset
 3.border-image属性了解即可
 -------------------------------
 border-image
-source
-slice
-width
-outset
-repeat
+border-image-source
+border-image-repeat
+border-image-slice
+broder-image-width
+border-image-outset

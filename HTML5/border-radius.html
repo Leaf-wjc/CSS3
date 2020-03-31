@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Border-radius</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.test{
+			width: 300px;
+			height: 150px;
+			border:2px solid red;
+			-webkit-border-radius: 50%;
+			   -moz-border-radius: 50%;
+			    -ms-border-radius: 50%;
+			     -o-border-radius: 50%;
+			        border-radius: 50%;
+			font-size: 24px;
+			text-align: center;
+			line-height: 150px;
+			margin:0 auto;
+			position: relative;
+		}
+		.test:before,
+		.test:after
+		{
+			position: absolute;
+			display: block;
+			content: "";
+			border:2px solid red;
+			-webkit-border-radius: 50%;
+			   -moz-border-radius: 50%;
+			    -ms-border-radius: 50%;
+			     -o-border-radius: 50%;
+			        border-radius: 50%;
+		}
+		.test:before{
+			width: 50px;
+			height: 50px;
+			right: 0;
+			bottom: -40px;
+		}
+		.test:after{
+			width: 30px;
+			height: 30px;
+			right: -30px;
+			bottom:-75px;
+		}
+	</style>
+</head>
+<body>
+	<div class="test">
+		欢迎大家来到慕课网
+	</div>
+</body>
+</html>

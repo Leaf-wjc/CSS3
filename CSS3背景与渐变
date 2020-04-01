@@ -34,4 +34,4 @@ background-attachment: ;
 5%-10%-15%.....100%
 第一个颜色的值如果不写是0%
 最后一个颜色的值如果不写是100%
-③background：repeating-linear-gradientsrepeating-linear-gradients
+③background：repeating-linear-gradients()

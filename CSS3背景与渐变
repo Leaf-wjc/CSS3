@@ -24,3 +24,12 @@ background-size: ;
 background-position: ;
 background-repeat: ;
 background-attachment: ;
+-------------------------------
+3.CSS渐变
+-------------------------------
+线性渐变
+①background-image:-webkit-linear-gradient(top,red,blue);
+②background:-webkit-linear-gradient(deg,red,blue,yellow,green)
+颜色后面跟百分比可以按照设定的百分比进行分布
+5%-10%-15%.....100%
+实用角度

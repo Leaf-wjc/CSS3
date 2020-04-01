@@ -32,4 +32,6 @@ background-attachment: ;
 ②background:-webkit-linear-gradient(deg,red,blue,yellow,green)
 颜色后面跟百分比可以按照设定的百分比进行分布
 5%-10%-15%.....100%
-实用角度
+第一个颜色的值如果不写是0%
+最后一个颜色的值如果不写是100%
+③background：repeating-linear-gradientsrepeating-linear-gradients

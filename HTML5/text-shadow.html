@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .test-shadow{
+            font-size: 20px;
+            color: pink;
+            text-shadow: 3px 3px 3px red;
+        }
+        .test-shadow2{
+            font-size:30px;
+            /*此处写代码*/
+            text-shadow:10px 5px 3px rgba(30,160,98,0.7);
+        }
+        p { width: 500px;font-size:20px; margin: 10px auto; background: #abcdef;overflow:hidden;}
+        /*此处写代码*/
+        p.p1{
+            text-overflow:ellipsis;
+        }
+        p.p2{
+            text-overflow:clip;
+        }
+        p:hover{
+            overflow:visible;
+        }
+    </style>
+</head>
+<body>
+<div class="test-shadow">
+    Hello World!
+</div>
+<div class="test-shadow2">
+    慕课网(IMOOC)国内最大的IT技能学习平台
+</div>
+
+
+<p class="p1">bababadalgharaghtakamminarronnkonnbronntonne,rronntuonnthunn,trovarrhounawnskawntoohoohoordenenthurnuk</p>
+<p class="p2">bababadalgharaghtakamminarronnkonnbronntonne,rronntuonnthunn,trovarrhounawnskawntoohoohoordenenthurnuk</p>
+</body>
+</html>

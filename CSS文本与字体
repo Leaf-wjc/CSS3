@@ -1,0 +1,33 @@
+-------------------------------
+1.文本阴影
+-------------------------------
+text-shadow: h-shadow v-shadow blur color;
+text-outline:thickness blur color;(文本轮廓)
+-------------------------------
+2.文本换行
+-------------------------------
+word-break:normal break-all keep-all;
+拉丁文情况下 normal跟keep-al是一样的。
+中文情况下 normal跟break-all是一样的。
+
+wrod-wrap允许长单词或者URL地址换行到下行(针对于拉丁文本)
+word-wrap:normal break-word;
+-------------------------------
+3.新的文本属性
+-------------------------------
+text-align-last并且只有在设置text-align:justify;的时候才生效
+auto left right center justify
+start end initial inherit
+只有IE支持，如果需要兼容加上-webkit- -moz-  -o-
+
+
+text-overflow一定要加overflow：hidden；
+clip(切掉) ellipsis（....） string
+-------------------------------
+3.CSS3字体
+-------------------------------
+@font-face
+字体格式:
+ttf-otf-woff
+.eot是IE专用的字体
+.svg格式

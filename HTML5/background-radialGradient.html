@@ -5,6 +5,24 @@
     <title>background-radialGradient</title>
     <style>
         .test{
+            width: 800px;
+            height: 500px;
+            margin: 0 auto;
+            background: -webkit-radial-gradient(ellipse,red,yellow);
+            background:    -moz-radial-gradient(ellipse,red,yellow);
+            background:      -o-radial-gradient(ellipse,red,yellow);
+            background:         radial-gradient(ellipse,red,yellow);
+        }
+        .test2{
+            width: 800px;
+            height: 500px;
+            margin: 0 auto;
+            background: -webkit-radial-gradient(ellipse,red 50%,yellow 50%);
+            background:    -moz-radial-gradient(ellipse,red 50%,yellow 50%);
+            background:      -o-radial-gradient(ellipse,red 50%,yellow 50%);
+            background:         radial-gradient(ellipse,red 50%,yellow 50%);
+        }
+        .test3{
             width: 120px;
             height: 120px;
             margin: 0 auto;
@@ -13,23 +31,13 @@
             background:      -o-radial-gradient(ellipse,red,yellow);
             background:         radial-gradient(ellipse,red,yellow);
         }
-        .test2{
-            width: 120px;
-            height: 120px;
-            margin: 0 auto;
-            background: -webkit-radial-gradient(red 50%,yellow 50%);
-            background:    -moz-radial-gradient(red 50%,yellow 50%);
-            background:      -o-radial-gradient(red 50%,yellow 50%);
-            background:         radial-gradient(red 50%,yellow 50%);
-        }
-        .test3{
-            width: 120px;
-            height: 120px;
-            margin: 0 auto;
-            background: -webkit-radial-gradient(circle,red,yellow);
-            background:    -moz-radial-gradient(circle,red,yellow);
-            background:      -o-radial-gradient(circle,red,yellow);
-            background:         radial-gradient(circle,red,yellow);
+        .redial{
+            width: 200px;
+            height: 300px;
+            background: -webkit-radial-gradient(60% 40%,closest-side circle,red,yellow,green,blue);
+            background:    -moz-radial-gradient(60% 40%,closest-side circle,red,yellow,green,blue);
+            background:      -o-radial-gradient(60% 40%,closest-side circle,red,yellow,green,blue);
+            background:         radial-gradient(60% 40%,closest-side circle,red,yellow,green,blue);
         }
     </style>
 </head>
@@ -41,6 +49,9 @@
 
 </div>
 <div class="test3">
+
+</div>
+<div class="redial">
 
 </div>
 </body>

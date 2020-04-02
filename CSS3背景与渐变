@@ -35,3 +35,9 @@ background-attachment: ;
 第一个颜色的值如果不写是0%
 最后一个颜色的值如果不写是100%
 ③background：repeating-linear-gradients()
+径向渐变跟线性渐变有相似的地方
+除了closest-side这些
+渐变这一块应该多加练习，还有阴影。
+-------------------------------
+3.IE6-IE8是不支持gradient属性的
+-------------------------------

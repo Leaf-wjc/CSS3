@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e799c032-5a19-4809-ab9b-3f14844d6199" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS3背景与渐变" beforeDir="false" afterPath="$PROJECT_DIR$/CSS3背景与渐变" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML5/background-lineGradientd.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5/background-lineGradientd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML5/background-radialGradient.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5/background-radialGradient.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS文本与字体" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML5/box-shadow.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5/box-shadow.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,7 +16,44 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CSS文本与字体" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS文本与字体">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CSS3背景与渐变" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS3背景与渐变">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="868">
+              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="box-shadow.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HTML5/box-shadow.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CSS3边框和圆角" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS3边框和圆角">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="2" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,6 +78,8 @@
         <option value="$PROJECT_DIR$/HTML5/background-radialGradient.html" />
         <option value="$PROJECT_DIR$/HTML5/background-lineGradientd.html" />
         <option value="$PROJECT_DIR$/CSS3背景与渐变" />
+        <option value="$PROJECT_DIR$/CSS文本与字体" />
+        <option value="$PROJECT_DIR$/HTML5/box-shadow.html" />
       </list>
     </option>
   </component>
@@ -62,8 +99,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="875" />
-    <option name="y" value="131" />
+    <option name="x" value="698" />
+    <option name="y" value="212" />
     <option name="width" value="1759" />
     <option name="height" value="733" />
   </component>
@@ -79,6 +116,11 @@
             <path>
               <item name="CSS3" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSS3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSS3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSS3" type="462c0819:PsiDirectoryNode" />
+              <item name="HTML5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -120,15 +162,16 @@
       <option name="presentableId" value="Default" />
       <updated>1585744480581</updated>
       <workItem from="1585744484504" duration="5085000" />
-      <workItem from="1585791511740" duration="1738000" />
+      <workItem from="1585791511740" duration="2132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6823000" />
+    <option name="totallyTimeSpent" value="7217000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="875" y="131" width="1759" height="733" extended-state="0" />
+    <frame x="698" y="212" width="1759" height="733" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18066743" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -205,17 +248,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS3背景与渐变">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML5/background-radialGradient.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3边框和圆角">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS文本与字体">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3背景与渐变">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5/box-shadow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
         </state>
       </provider>
     </entry>

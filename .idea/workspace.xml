@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e799c032-5a19-4809-ab9b-3f14844d6199" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/CSS3/Transform/CSS/translate.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS3/Transform/CSS/translate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS3/Transform/HTML/Transform-translate.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS3/Transform/HTML/Transform-translate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS3/Transform/CSS/scale.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS3/Transform/HTML/FiveStar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS3/Transform/HTML/Transform-scale.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS3/Transform/HTML/transform-rotate3d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS3-Transform" beforeDir="false" afterPath="$PROJECT_DIR$/CSS3-Transform" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,26 +24,71 @@
       <file leaf-file-name="CSS3-Transform" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS3-Transform">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="4" selection-end-column="27" />
+            <state relative-caret-position="364">
+              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Transform-translate.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CSS3/Transform/HTML/Transform-translate.html">
+      <file leaf-file-name="Transform-rotate.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS3/Transform/HTML/Transform-rotate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state relative-caret-position="196">
+              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="translate.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS3/Transform/CSS/translate.css">
+      <file leaf-file-name="transform-rotate3d.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS3/Transform/HTML/transform-rotate3d.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rotate.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS3/Transform/CSS/rotate.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="66" column="28" lean-forward="true" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scale.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS3/Transform/CSS/scale.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Transform-scale.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS3/Transform/HTML/Transform-scale.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FiveStar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS3/Transform/HTML/FiveStar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CSS3背景与渐变" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS3背景与渐变">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -49,8 +98,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -66,7 +115,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/HTML5/background-size.html" />
-        <option value="$PROJECT_DIR$/HTML5/3-25.html" />
         <option value="$PROJECT_DIR$/HTML5/background-radialGradient.html" />
         <option value="$PROJECT_DIR$/HTML5/background-lineGradientd.html" />
         <option value="$PROJECT_DIR$/CSS3背景与渐变" />
@@ -76,9 +124,15 @@
         <option value="$PROJECT_DIR$/HTML5/font-face.html" />
         <option value="$PROJECT_DIR$/CSS3/Transform/CSS/rotate.css" />
         <option value="$PROJECT_DIR$/CSS3/Transform/HTML/Transform-rotate.html" />
-        <option value="$PROJECT_DIR$/CSS3-Transform" />
-        <option value="$PROJECT_DIR$/CSS3/Transform/CSS/translate.css" />
+        <option value="$PROJECT_DIR$/CSS3/Transform/CSS/scale.css" />
         <option value="$PROJECT_DIR$/CSS3/Transform/HTML/Transform-translate.html" />
+        <option value="$PROJECT_DIR$/CSS3/Transform/CSS/translate.css" />
+        <option value="$PROJECT_DIR$/CSS3/Transform/HTML/Transform-scale.html" />
+        <option value="$PROJECT_DIR$/HTML5/3-25.html" />
+        <option value="$PROJECT_DIR$/CSS3/Transform/HTML/FiveStart.html" />
+        <option value="$PROJECT_DIR$/CSS3/Transform/HTML/FiveStar.html" />
+        <option value="$PROJECT_DIR$/CSS3-Transform" />
+        <option value="$PROJECT_DIR$/CSS3/Transform/HTML/transform-rotate3d.html" />
       </list>
     </option>
   </component>
@@ -99,9 +153,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1191" />
-    <option name="y" value="61" />
+    <option name="y" value="198" />
     <option name="width" value="1315" />
-    <option name="height" value="731" />
+    <option name="height" value="1013" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -109,7 +163,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,6 +204,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,18 +243,19 @@
       <workItem from="1585744484504" duration="5085000" />
       <workItem from="1585791511740" duration="10588000" />
       <workItem from="1585831765386" duration="1056000" />
-      <workItem from="1586185010422" duration="1066000" />
+      <workItem from="1586185010422" duration="12729000" />
+      <workItem from="1586243233341" duration="600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17795000" />
+    <option name="totallyTimeSpent" value="30058000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1191" y="61" width="1315" height="731" extended-state="0" />
+    <frame x="1191" y="198" width="1315" height="1013" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24265842" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24265842" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="调试" order="12" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
@@ -228,6 +283,41 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CSS3-Transform">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/Transform/CSS/scale.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/Transform/HTML/Transform-scale.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3背景与渐变">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/Transform/HTML/FiveStar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="32" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CSS3-Transform">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -324,13 +414,6 @@
         <state relative-caret-position="-653" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5/3-25.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML5/background-radialGradient.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
@@ -356,13 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS3背景与渐变">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -392,13 +468,6 @@
     <entry file="file://$PROJECT_DIR$/CSS3/Transform/img/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS3/Transform/CSS/rotate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS3边框和圆角">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -406,38 +475,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5/background-lineGradientd.html">
+    <entry file="file://$PROJECT_DIR$/CSS3/Transform/HTML/Transform-translate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="114" column="34" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS3/Transform/HTML/Transform-rotate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS3-Transform">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="4" selection-end-column="27" />
+        <state relative-caret-position="224">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS3/Transform/CSS/translate.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="112">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS3/Transform/HTML/Transform-translate.html">
+    <entry file="file://$PROJECT_DIR$/HTML5/3-25.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state relative-caret-position="202">
+          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5/background-lineGradientd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="114" column="65" selection-start-line="114" selection-start-column="65" selection-end-line="114" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3背景与渐变">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/Transform/CSS/scale.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/Transform/HTML/FiveStart.html" />
+    <entry file="file://$PROJECT_DIR$/CSS3/Transform/HTML/Transform-scale.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/Transform/HTML/FiveStar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3-Transform">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/Transform/HTML/Transform-rotate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/Transform/HTML/transform-rotate3d.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/Transform/CSS/rotate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="66" column="28" lean-forward="true" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
         </state>
       </provider>
     </entry>

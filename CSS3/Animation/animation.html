@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>animation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /*.test-box{*/
+            /*width: 100px;*/
+            /*height: 100px;*/
+            /*border: 5px dotted red;*/
+            /*border-radius: 50%;*/
+            /*margin: 40px auto;*/
+            /*-webkit-animation: magicBall2 10s ease-in-out ;*/
+            /*-o-animation: magicBall2 10s ease-in-out ;*/
+            /*animation: magicBall2 10s ease-in-out ;*/
+        /*}*/
+        /*.test-box2{*/
+            /*width: 80px;*/
+            /*height: 80px;*/
+            /*border-radius: 50%;*/
+            /*border: 4px dotted red;*/
+            /*margin: 6px 0 0 6px;*/
+            /*-webkit-animation: magicBall 10s ease-in-out ;*/
+            /*-o-animation: magicBall 10s ease-in-out ;*/
+            /*animation: magicBall 10s ease-in-out ;*/
+        /*}*/
+        /*@keyframes magicBall {*/
+            /*from {transform: rotateX(0deg)}*/
+            /*to {transform: rotateX(360deg)}*/
+        /*}*/
+        /*@keyframes magicBall2 {*/
+            /*from {transform: rotateY(0deg)}*/
+            /*to {transform: rotateY(360deg)}*/
+        /*}*/
+
+        .work-animation{
+            font-family: 'Microsoft Yahei';
+            font-size: 60px;
+            font-weight: bold;
+            line-height: 600px;
+            width: 800px;
+            height: 600px;
+            position: absolute;
+            margin: auto;
+            top: -1000px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            border: 5px solid #000;
+            border-radius: 50%;
+            /*此处写代码*/
+            -webkit-animation: welcome ease-in-out 2s 5s;
+            -o-animation: welcome ease-in-out 2s 5s;
+            animation: welcome ease-in-out 2s 5s;
+        }
+        @keyframes welcome {
+            from {opacity: 0;top:-600px;}
+            to {opacity: 1;top:100px}
+        }
+
+        /*div.other*/
+        /*{*/
+            /*width:100px;*/
+            /*height:100px;*/
+            /*background:red;*/
+            /*position:relative;*/
+            /*animation:myfirst 10s infinite;*/
+            /*animation-direction:alternate;*/
+        /*}*/
+
+        /*@keyframes myfirst*/
+        /*{*/
+            /*from  {opacity:0;top:0px;}*/
+            /*to  {opacity:1;top:100px;}*/
+        /*}*/
+    </style>
+</head>
+<body>
+<!--animation-name:keyframename|none;-->
+<!--keyframename:指定要绑定到选择器的关键帧的名称-->
+<!--animation一共有6个属性-->
+<!--animation-name-->
+<!--animation-duration动画时长-->
+<!--animation-timing-function规定动画的速度曲线-->
+<!--animation-delay延迟执行动画时间-->
+<!--animation-iteraion-count规定动画播放的次数-->
+<!--animation-iteraion-count:none|infinte(无限次播放)-->
+<!--animation-direction规定是否应该轮流反向播放动画。-->
+<!--<div class="test-box">-->
+    <!--<div class="test-box2">-->
+
+    <!--</div>-->
+<!--</div>-->
+<div class="work-animation">大家好，欢迎来到慕课网！</div>
+<!--<div class="other"></div>-->
+</body>
+</html>

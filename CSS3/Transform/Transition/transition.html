@@ -2,9 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>transition</title>
+    <style>
+        .transition-test{
+            width: 300px;
+            height: 400px;
+            border:1px solid black;
+            background:url("../img/1.jpg");
+            margin: 0 auto;
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+            -webkit-transition:  4s  ease-in;
+            -moz-transition:  4s ease-in;
+            -ms-transition:  4s ease-in;
+            -o-transition:  4s ease-in;
+            transition:  4s ease-in;
+        }
+        .transition-test:hover{
+            cursor: pointer;
+            -webkit-transform: rotate(360deg) scale(0.5);
+            -moz-transform: rotate(360deg) scale(0.5);
+            -ms-transform: rotate(360deg) scale(0.5);
+            -o-transform: rotate(360deg) scale(0.5);
+            transform: rotate(360deg) scale(0.5);
+
+            -webkit-transition:   ease-in-out 3s 3s;
+            -moz-transition:  ease-in-out 3s 3s;
+            -ms-transition:   ease-in-out 3s 3s;
+            -o-transition:   ease-in-out 3s 3s;
+            transition:  ease-in-out 3s 3s;
+        }
+        .work{
+            width: 200px;
+            height: 40px;
+            line-height: 40px;
+            color:black;
+            background-color: #ACCDED;
+            text-align: center;
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+            -webkit-transition: ease-in-out 2s;
+            -moz-transition: ease-in-out 2s;
+            -ms-transition: ease-in-out 2s;
+            -o-transition: ease-in-out 2s;
+            transition: ease-in-out 2s;
+        }
+        .work:hover{
+            cursor: pointer;
+            -webkit-transform: rotate(360deg) scale(2);
+            -moz-transform: rotate(360deg) scale(2);
+            -ms-transform: rotate(360deg) scale(2);
+            -o-transform: rotate(360deg) scale(2);
+            transform: rotate(360deg) scale(2);
+            -webkit-transition: ease-in-out 2s;
+            -moz-transition: ease-in-out 2s;
+            -ms-transition: ease-in-out 2s;
+            -o-transition: ease-in-out 2s;
+            transition: ease-in-out 2s;
+        }
+    </style>
 </head>
 <body>
+<!--transition-property-->
+<!--检索或者设置对象中参与过度的属性-->
+<!--transition-property:none|all|property-->
+<!--设置对象过度持续时间-->
+<!--transition-duration-->
+<!--设置对象过度快慢-->
+<!--transition-timing-function-->
+<!--过度中有慢-快-慢ease-in-out-->
+<!--快-慢 ease-out-->
+<!--慢-快 ease-in-->
+<!--匀速 linear-->
+<!--延迟执行delay-->
+<!--transition-property-duration-timing-function-delay-->
+<div class="transition-test">
+</div>
 
+<div class="work">
+    www.imocc.com
+</div>
 </body>
 </html>

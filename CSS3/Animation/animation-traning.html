@@ -30,9 +30,9 @@
             color: blue;
             text-align: center;
             text-shadow: 2px 2px 2px yellow;
-            -webkit-animation: slide 3s infinite;
-            -o-animation: slide 3s infinite;
-            animation: slide 3s infinite;
+            -webkit-animation: slide 3s infinite both;
+            -o-animation: slide 3s infinite both;
+            animation: slide 3s infinite both;
         }
         .slide-box2{
             line-height: 100px;
@@ -43,6 +43,12 @@
             -o-animation: slide 3s infinite alternate ease-in-out;
             animation: slide 3s infinite alternate ease-in-out;
         }
+        .slide-box2:hover{
+            cursor: pointer;
+            -webkit-animation-play-state: paused;
+            -moz-animation-play-state: paused;
+            -o-animation-play-state: paused;
+        }
 
         .slide-box3{
             line-height: 100px;
@@ -50,10 +56,24 @@
             text-align: center;
             text-shadow: 2px 2px 2px yellow;
             /*infinite也可以定义次数*/
-            -webkit-animation: slide 5s infinite alternate 3s;
-            -o-animation: slide 5s infinite alternate 3s;
-            animation: slide 5s infinite alternate 3s;
+            -webkit-animation: slide 5s infinite alternate 3s forwards;
+            -o-animation: slide 5s infinite alternate 3s forwards;
+            animation: slide 5s infinite alternate 3s forwards;
         }
+        .slide-box4{
+            line-height: 100px;
+            color: blue;
+            text-align: center;
+            text-shadow: 2px 2px 2px yellow;
+            /*animation-fill-mode属性可以设置动画结束时的状态
+            forwards设置对象状态为动画结束的状态
+            backwords设置对象为动画初始状态
+            */
+            -webkit-animation: slide 5s forwards;
+            -o-animation: slide 5s forwards;
+            animation: slide 5s forwards;
+        }
+
         @keyframes slide {
             from {
                 left: 0px;
@@ -80,12 +100,12 @@
 <div class="card">
     <!--延迟执行动画-->
     <div class="animationBox slide-box3">
-        box1
+        box3
     </div>
 </div>
 <div class="card">
-    <div class="animationBox slide">
-        box1
+    <div class="animationBox slide-box4">
+        box4
     </div>
 </div>
 <div class="card">

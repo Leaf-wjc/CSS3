@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e799c032-5a19-4809-ab9b-3f14844d6199" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/CSS3/Animation/animation-traning.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS3/Animation/animation-traning.html" afterDir="false" />
-    </list>
+    <list default="true" id="e799c032-5a19-4809-ab9b-3f14844d6199" name="默认的" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="animation-traning.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSS3/Animation/animation-traning.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="84" column="9" lean-forward="true" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+            <state relative-caret-position="296">
+              <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -190,16 +188,15 @@
       <workItem from="1586243233341" duration="4346000" />
       <workItem from="1586261674924" duration="17000" />
       <workItem from="1586261729400" duration="6278000" />
-      <workItem from="1586273343091" duration="5374000" />
+      <workItem from="1586273343091" duration="5443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45473000" />
+    <option name="totallyTimeSpent" value="45542000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1064" y="28" width="1315" height="1013" extended-state="0" />
-    <editor active="true" />
+    <frame x="1484" y="93" width="1315" height="1013" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24265842" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -565,8 +562,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS3/Animation/animation-traning.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="84" column="9" lean-forward="true" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+        <state relative-caret-position="296">
+          <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
         </state>
       </provider>
     </entry>

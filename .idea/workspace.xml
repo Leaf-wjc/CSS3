@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e799c032-5a19-4809-ab9b-3f14844d6199" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS3/Transition/gt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS3/Animation/animation-traning.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS3/Animation/animation-traning.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,41 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="animation-traning.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="animation-traning.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSS3/Animation/animation-traning.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="97" column="10" lean-forward="true" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gt.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CSS3/Transition/gt.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-              <folding>
-                <element signature="e#1109#1113#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3-25.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML5/3-25.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="transition.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CSS3/Transition/transition.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="859">
-              <caret line="83" column="54" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="54" />
+            <state relative-caret-position="520">
+              <caret line="84" column="9" lean-forward="true" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -108,8 +76,9 @@
         <option value="$PROJECT_DIR$/CSS3/Transform/HTML/transform-rotate3d.html" />
         <option value="$PROJECT_DIR$/CSS3/Transform/Transition/transition.html" />
         <option value="$PROJECT_DIR$/CSS3/Animation/animation.html" />
-        <option value="$PROJECT_DIR$/CSS3/Animation/animation-traning.html" />
         <option value="$PROJECT_DIR$/CSS3/Transition/gt.html" />
+        <option value="$PROJECT_DIR$/CSS3/Animation/gt.html" />
+        <option value="$PROJECT_DIR$/CSS3/Animation/animation-traning.html" />
       </list>
     </option>
   </component>
@@ -129,8 +98,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1064" />
-    <option name="y" value="28" />
+    <option name="x" value="1484" />
+    <option name="y" value="93" />
     <option name="width" value="1315" />
     <option name="height" value="1013" />
   </component>
@@ -187,6 +156,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CSS3/Animation" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -216,12 +190,12 @@
       <workItem from="1586243233341" duration="4346000" />
       <workItem from="1586261674924" duration="17000" />
       <workItem from="1586261729400" duration="6278000" />
-      <workItem from="1586273343091" duration="4410000" />
+      <workItem from="1586273343091" duration="5374000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44509000" />
+    <option name="totallyTimeSpent" value="45473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1064" y="28" width="1315" height="1013" extended-state="0" />
@@ -565,13 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS3/Transition/transition.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
-          <caret line="83" column="54" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS3/Animation/animation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-301">
@@ -579,20 +546,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS3/Animation/animation-traning.html">
+    <entry file="file://$PROJECT_DIR$/CSS3/Animation/gt.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="97" column="10" lean-forward="true" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS3/Transition/gt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="616">
+          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
           <folding>
             <element signature="e#1109#1113#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/Transition/transition.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="859">
+          <caret line="83" column="54" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/Animation/animation-traning.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="84" column="9" lean-forward="true" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
         </state>
       </provider>
     </entry>

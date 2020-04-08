@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .card{
+            width:500px;
+            height: 100px;
+            background-color: #abcdef;
+            position: relative;
+            margin-top: 20px;
+        }
+        .animationBox{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100px;
+            height: 100px;
+            background-color: cadetblue;
+            opacity: 0.5;
+
+        }
+        .slide-box1{
+            line-height: 100px;
+            color: blue;
+            text-align: center;
+            text-shadow: 2px 2px 2px yellow;
+            -webkit-animation: slide 3s infinite;
+            -o-animation: slide 3s infinite;
+            animation: slide 3s infinite;
+        }
+        .slide-box2{
+            line-height: 100px;
+            color: blue;
+            text-align: center;
+            text-shadow: 2px 2px 2px yellow;
+            -webkit-animation: slide 3s infinite alternate ease-in-out;
+            -o-animation: slide 3s infinite alternate ease-in-out;
+            animation: slide 3s infinite alternate ease-in-out;
+        }
+
+        .slide-box3{
+            line-height: 100px;
+            color: blue;
+            text-align: center;
+            text-shadow: 2px 2px 2px yellow;
+            /*infinite也可以定义次数*/
+            -webkit-animation: slide 5s infinite alternate 3s;
+            -o-animation: slide 5s infinite alternate 3s;
+            animation: slide 5s infinite alternate 3s;
+        }
+        @keyframes slide {
+            from {
+                left: 0px;
+            }
+            to {
+                left: 400px;
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="card">
+    <div class="animationBox slide-box1">
+        box1
+    </div>
+</div>
+<div class="card">
+    <!--重复的来回执行动画-->
+    <div class="animationBox slide-box2">
+        box2
+    </div>
+</div>
+<div class="card">
+    <!--延迟执行动画-->
+    <div class="animationBox slide-box3">
+        box1
+    </div>
+</div>
+<div class="card">
+    <div class="animationBox slide">
+        box1
+    </div>
+</div>
+<div class="card">
+    <div class="animationBox slide">
+        box1
+    </div>
+</div>
+<div class="card">
+    <div class="animationBox slide">
+        box1
+    </div>
+</div>
+<iframe width="100%" height="800px" src="https://c.runoob.com/iframe/3391" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+</body>
+</html>
